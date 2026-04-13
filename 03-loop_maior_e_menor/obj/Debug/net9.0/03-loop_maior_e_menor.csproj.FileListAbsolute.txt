@@ -1,0 +1,14 @@
+C:\Users\sysjo\Exercicia_.net\03-loop_maior_e_menor\bin\Debug\net9.0\03-loop_maior_e_menor.exe
+C:\Users\sysjo\Exercicia_.net\03-loop_maior_e_menor\bin\Debug\net9.0\03-loop_maior_e_menor.deps.json
+C:\Users\sysjo\Exercicia_.net\03-loop_maior_e_menor\bin\Debug\net9.0\03-loop_maior_e_menor.runtimeconfig.json
+C:\Users\sysjo\Exercicia_.net\03-loop_maior_e_menor\bin\Debug\net9.0\03-loop_maior_e_menor.dll
+C:\Users\sysjo\Exercicia_.net\03-loop_maior_e_menor\bin\Debug\net9.0\03-loop_maior_e_menor.pdb
+C:\Users\sysjo\Exercicia_.net\03-loop_maior_e_menor\obj\Debug\net9.0\03-loop_maior_e_menor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sysjo\Exercicia_.net\03-loop_maior_e_menor\obj\Debug\net9.0\03-loop_maior_e_menor.AssemblyInfoInputs.cache
+C:\Users\sysjo\Exercicia_.net\03-loop_maior_e_menor\obj\Debug\net9.0\03-loop_maior_e_menor.AssemblyInfo.cs
+C:\Users\sysjo\Exercicia_.net\03-loop_maior_e_menor\obj\Debug\net9.0\03-loop_maior_e_menor.csproj.CoreCompileInputs.cache
+C:\Users\sysjo\Exercicia_.net\03-loop_maior_e_menor\obj\Debug\net9.0\03-loop_maior_e_menor.dll
+C:\Users\sysjo\Exercicia_.net\03-loop_maior_e_menor\obj\Debug\net9.0\refint\03-loop_maior_e_menor.dll
+C:\Users\sysjo\Exercicia_.net\03-loop_maior_e_menor\obj\Debug\net9.0\03-loop_maior_e_menor.pdb
+C:\Users\sysjo\Exercicia_.net\03-loop_maior_e_menor\obj\Debug\net9.0\03-loop_maior_e_menor.genruntimeconfig.cache
+C:\Users\sysjo\Exercicia_.net\03-loop_maior_e_menor\obj\Debug\net9.0\ref\03-loop_maior_e_menor.dll

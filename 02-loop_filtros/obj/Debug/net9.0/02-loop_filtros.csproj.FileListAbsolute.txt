@@ -1,0 +1,14 @@
+C:\Users\sysjo\Exercicia_.net\02-loop_filtros\bin\Debug\net9.0\02-loop_filtros.exe
+C:\Users\sysjo\Exercicia_.net\02-loop_filtros\bin\Debug\net9.0\02-loop_filtros.deps.json
+C:\Users\sysjo\Exercicia_.net\02-loop_filtros\bin\Debug\net9.0\02-loop_filtros.runtimeconfig.json
+C:\Users\sysjo\Exercicia_.net\02-loop_filtros\bin\Debug\net9.0\02-loop_filtros.dll
+C:\Users\sysjo\Exercicia_.net\02-loop_filtros\bin\Debug\net9.0\02-loop_filtros.pdb
+C:\Users\sysjo\Exercicia_.net\02-loop_filtros\obj\Debug\net9.0\02-loop_filtros.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sysjo\Exercicia_.net\02-loop_filtros\obj\Debug\net9.0\02-loop_filtros.AssemblyInfoInputs.cache
+C:\Users\sysjo\Exercicia_.net\02-loop_filtros\obj\Debug\net9.0\02-loop_filtros.AssemblyInfo.cs
+C:\Users\sysjo\Exercicia_.net\02-loop_filtros\obj\Debug\net9.0\02-loop_filtros.csproj.CoreCompileInputs.cache
+C:\Users\sysjo\Exercicia_.net\02-loop_filtros\obj\Debug\net9.0\02-loop_filtros.dll
+C:\Users\sysjo\Exercicia_.net\02-loop_filtros\obj\Debug\net9.0\refint\02-loop_filtros.dll
+C:\Users\sysjo\Exercicia_.net\02-loop_filtros\obj\Debug\net9.0\02-loop_filtros.pdb
+C:\Users\sysjo\Exercicia_.net\02-loop_filtros\obj\Debug\net9.0\02-loop_filtros.genruntimeconfig.cache
+C:\Users\sysjo\Exercicia_.net\02-loop_filtros\obj\Debug\net9.0\ref\02-loop_filtros.dll
