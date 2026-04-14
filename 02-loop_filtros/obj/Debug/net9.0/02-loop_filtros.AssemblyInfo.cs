@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("02-loop_filtros")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26b9c8e4d1c8cbe422972c17d20c236441a68c8a")]
 [assembly: System.Reflection.AssemblyProductAttribute("02-loop_filtros")]
 [assembly: System.Reflection.AssemblyTitleAttribute("02-loop_filtros")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
