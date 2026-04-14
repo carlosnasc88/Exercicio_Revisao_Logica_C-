@@ -1,0 +1,15 @@
+C:\Users\sysjo\Exercicia_.net\04-loop-Estatisticas\bin\Debug\net10.0\04-loop-Estatisticas.exe
+C:\Users\sysjo\Exercicia_.net\04-loop-Estatisticas\bin\Debug\net10.0\04-loop-Estatisticas.deps.json
+C:\Users\sysjo\Exercicia_.net\04-loop-Estatisticas\bin\Debug\net10.0\04-loop-Estatisticas.runtimeconfig.json
+C:\Users\sysjo\Exercicia_.net\04-loop-Estatisticas\bin\Debug\net10.0\04-loop-Estatisticas.dll
+C:\Users\sysjo\Exercicia_.net\04-loop-Estatisticas\bin\Debug\net10.0\04-loop-Estatisticas.pdb
+C:\Users\sysjo\Exercicia_.net\04-loop-Estatisticas\obj\Debug\net10.0\04-loop-Estatisticas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sysjo\Exercicia_.net\04-loop-Estatisticas\obj\Debug\net10.0\04-loop-Estatisticas.AssemblyInfoInputs.cache
+C:\Users\sysjo\Exercicia_.net\04-loop-Estatisticas\obj\Debug\net10.0\04-loop-Estatisticas.AssemblyInfo.cs
+C:\Users\sysjo\Exercicia_.net\04-loop-Estatisticas\obj\Debug\net10.0\04-loop-Estatisticas.csproj.CoreCompileInputs.cache
+C:\Users\sysjo\Exercicia_.net\04-loop-Estatisticas\obj\Debug\net10.0\04-loop-Estatisticas.sourcelink.json
+C:\Users\sysjo\Exercicia_.net\04-loop-Estatisticas\obj\Debug\net10.0\04-loop-Estatisticas.dll
+C:\Users\sysjo\Exercicia_.net\04-loop-Estatisticas\obj\Debug\net10.0\refint\04-loop-Estatisticas.dll
+C:\Users\sysjo\Exercicia_.net\04-loop-Estatisticas\obj\Debug\net10.0\04-loop-Estatisticas.pdb
+C:\Users\sysjo\Exercicia_.net\04-loop-Estatisticas\obj\Debug\net10.0\04-loop-Estatisticas.genruntimeconfig.cache
+C:\Users\sysjo\Exercicia_.net\04-loop-Estatisticas\obj\Debug\net10.0\ref\04-loop-Estatisticas.dll
