@@ -1,0 +1,15 @@
+C:\Users\sysjo\Exercicia_.net\05-sistema-de-numeros\obj\Debug\net10.0\05-sistema-de-numeros.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sysjo\Exercicia_.net\05-sistema-de-numeros\obj\Debug\net10.0\05-sistema-de-numeros.AssemblyInfoInputs.cache
+C:\Users\sysjo\Exercicia_.net\05-sistema-de-numeros\obj\Debug\net10.0\05-sistema-de-numeros.AssemblyInfo.cs
+C:\Users\sysjo\Exercicia_.net\05-sistema-de-numeros\obj\Debug\net10.0\05-sistema-de-numeros.csproj.CoreCompileInputs.cache
+C:\Users\sysjo\Exercicia_.net\05-sistema-de-numeros\obj\Debug\net10.0\05-sistema-de-numeros.sourcelink.json
+C:\Users\sysjo\Exercicia_.net\05-sistema-de-numeros\bin\Debug\net10.0\05-sistema-de-numeros.exe
+C:\Users\sysjo\Exercicia_.net\05-sistema-de-numeros\bin\Debug\net10.0\05-sistema-de-numeros.deps.json
+C:\Users\sysjo\Exercicia_.net\05-sistema-de-numeros\bin\Debug\net10.0\05-sistema-de-numeros.runtimeconfig.json
+C:\Users\sysjo\Exercicia_.net\05-sistema-de-numeros\bin\Debug\net10.0\05-sistema-de-numeros.dll
+C:\Users\sysjo\Exercicia_.net\05-sistema-de-numeros\bin\Debug\net10.0\05-sistema-de-numeros.pdb
+C:\Users\sysjo\Exercicia_.net\05-sistema-de-numeros\obj\Debug\net10.0\05-sistema-de-numeros.dll
+C:\Users\sysjo\Exercicia_.net\05-sistema-de-numeros\obj\Debug\net10.0\refint\05-sistema-de-numeros.dll
+C:\Users\sysjo\Exercicia_.net\05-sistema-de-numeros\obj\Debug\net10.0\05-sistema-de-numeros.pdb
+C:\Users\sysjo\Exercicia_.net\05-sistema-de-numeros\obj\Debug\net10.0\05-sistema-de-numeros.genruntimeconfig.cache
+C:\Users\sysjo\Exercicia_.net\05-sistema-de-numeros\obj\Debug\net10.0\ref\05-sistema-de-numeros.dll

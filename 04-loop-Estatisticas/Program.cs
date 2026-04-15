@@ -187,7 +187,7 @@ void RemoverNumero()
 
 void AdicionarNuero()
 {
-    
+    Console.Clear();
     Console.Write("Digite um número para adicionar: ");
     if (int.TryParse(Console.ReadLine(), out int numero))
     {
@@ -319,17 +319,6 @@ void MostrarImpares()
         if (n % 2 != 0)
         {
             Console.WriteLine($"Número ímpar: {n}");
-            encontrou = true;
-        }
-    }
-
-    if (!encontrou)
-    {
-        Console.WriteLine("Nenhum número ímpar encontrado.");
-    }
-    Console.WriteLine("Pressione qualquer tecla...");
-    Console.ReadKey();
-}
         }
     }
     Console.WriteLine("Pressione qualquer tecla...");
