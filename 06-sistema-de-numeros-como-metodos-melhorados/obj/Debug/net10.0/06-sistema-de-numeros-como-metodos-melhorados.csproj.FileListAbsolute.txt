@@ -1,0 +1,15 @@
+C:\Users\sysjo\Exercicia_.net\06-sistema-de-numeros-como-metodos-melhorados\obj\Debug\net10.0\06-sistema-de-numeros-como-metodos-melhorados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sysjo\Exercicia_.net\06-sistema-de-numeros-como-metodos-melhorados\obj\Debug\net10.0\06-sistema-de-numeros-como-metodos-melhorados.AssemblyInfoInputs.cache
+C:\Users\sysjo\Exercicia_.net\06-sistema-de-numeros-como-metodos-melhorados\obj\Debug\net10.0\06-sistema-de-numeros-como-metodos-melhorados.AssemblyInfo.cs
+C:\Users\sysjo\Exercicia_.net\06-sistema-de-numeros-como-metodos-melhorados\obj\Debug\net10.0\06-sistema-de-numeros-como-metodos-melhorados.csproj.CoreCompileInputs.cache
+C:\Users\sysjo\Exercicia_.net\06-sistema-de-numeros-como-metodos-melhorados\obj\Debug\net10.0\06-sistema-de-numeros-como-metodos-melhorados.sourcelink.json
+C:\Users\sysjo\Exercicia_.net\06-sistema-de-numeros-como-metodos-melhorados\bin\Debug\net10.0\06-sistema-de-numeros-como-metodos-melhorados.exe
+C:\Users\sysjo\Exercicia_.net\06-sistema-de-numeros-como-metodos-melhorados\bin\Debug\net10.0\06-sistema-de-numeros-como-metodos-melhorados.deps.json
+C:\Users\sysjo\Exercicia_.net\06-sistema-de-numeros-como-metodos-melhorados\bin\Debug\net10.0\06-sistema-de-numeros-como-metodos-melhorados.runtimeconfig.json
+C:\Users\sysjo\Exercicia_.net\06-sistema-de-numeros-como-metodos-melhorados\bin\Debug\net10.0\06-sistema-de-numeros-como-metodos-melhorados.dll
+C:\Users\sysjo\Exercicia_.net\06-sistema-de-numeros-como-metodos-melhorados\bin\Debug\net10.0\06-sistema-de-numeros-como-metodos-melhorados.pdb
+C:\Users\sysjo\Exercicia_.net\06-sistema-de-numeros-como-metodos-melhorados\obj\Debug\net10.0\06-sistema-de-numeros-como-metodos-melhorados.dll
+C:\Users\sysjo\Exercicia_.net\06-sistema-de-numeros-como-metodos-melhorados\obj\Debug\net10.0\refint\06-sistema-de-numeros-como-metodos-melhorados.dll
+C:\Users\sysjo\Exercicia_.net\06-sistema-de-numeros-como-metodos-melhorados\obj\Debug\net10.0\06-sistema-de-numeros-como-metodos-melhorados.pdb
+C:\Users\sysjo\Exercicia_.net\06-sistema-de-numeros-como-metodos-melhorados\obj\Debug\net10.0\06-sistema-de-numeros-como-metodos-melhorados.genruntimeconfig.cache
+C:\Users\sysjo\Exercicia_.net\06-sistema-de-numeros-como-metodos-melhorados\obj\Debug\net10.0\ref\06-sistema-de-numeros-como-metodos-melhorados.dll
