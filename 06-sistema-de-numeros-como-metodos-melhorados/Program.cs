@@ -34,7 +34,8 @@ class Program
                         Console.WriteLine("Digite um número: ");
                         if (int.TryParse(Console.ReadLine(), out int numero))
                         {
-                            sistema.AdcionarNumeros(numero);
+
+                            sistema.AdcionarNumero(numero);
                             Console.WriteLine($"Número {numero} adicionado com sucesso!");
                         }
                         else
@@ -46,119 +47,120 @@ class Program
                         break;
                     case 2:
                         //Remover números
-                        Console.WriteLine("Digite o número que deseja remover:");
 
-                        if (int.TryParse(Console.ReadLine(), out int rnumero))
+                        try
                         {
+                            Console.WriteLine("Digite o número que deseja remover:");
+
+                            if (int.TryParse(Console.ReadLine(), out int rnumero))
+                            {
 
 
-                            if (sistema.RemoverNumeros(rnumero))
-                            {
-                                Console.WriteLine($"Número {rnumero} removido com sucesso!");
-                            }
-                            else
-                            {
-                                Console.WriteLine($"Número {rnumero} não encontrado na lista.");
+                                if (sistema.RemoverNumero(rnumero))
+                                {
+                                    Console.WriteLine($"Número {rnumero} removido com sucesso!");
+                                }
+                                else
+                                {
+                                    Console.WriteLine($"Número {rnumero} não encontrado na lista.");
+                                }
+
                             }
 
                         }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine($"Erro: {ex.Message}");
+                        }
+
+
                         Console.WriteLine("Precione qualquer tecla para continuar...");
                         Console.ReadKey();
 
                         break;
                     case 3:
-
-                        Console.WriteLine("Digite um número que deseja buscar :");
-                        if (int.TryParse(Console.ReadLine(), out int bnumero))
+                        try
                         {
-                            if (sistema.BuscarNumeros(bnumero))
+                            Console.WriteLine("Digite um número que deseja buscar :");
+                            if (int.TryParse(Console.ReadLine(), out int bnumero))
                             {
-                                Console.WriteLine($"Número {bnumero} encontrado na lista!");
-                            }
-                            else
-                            {
-                                Console.WriteLine($"Número {bnumero} não encontrado na lista.");
+                                if (sistema.BuscarNumero(bnumero))
+                                {
+                                    Console.WriteLine($"Número {bnumero} encontrado na lista!");
+                                }
+                                else
+                                {
+                                    Console.WriteLine($"Número {bnumero} não encontrado na lista.");
+                                }
                             }
                         }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine($"Erro: {ex.Message}");
+                        }
+
+
                         Console.WriteLine("Precione qualquer tecla para continuar...");
                         Console.ReadKey();
                         break;
+                   
                     case 4:
-                       
-                        if (sistema.ObterNumeros().Count == 0)
-                        {
-                            Console.WriteLine("Nenhum númeor foi inserido na lista");
+                        var lista = sistema.ObterNumero();
 
+                        if (lista.Count == 0)
+                        {
+                            Console.WriteLine("Nenhum número na lista.");
                         }
                         else
                         {
-                            var lista = sistema.ObterNumeros();
                             foreach (int n in lista)
                             {
-                                Console.WriteLine($"Nuemro: {n}");
+                                Console.WriteLine($"Número: {n}");
                             }
                         }
-                        Console.WriteLine("Pressione qualquer tecla...");
+
                         Console.ReadKey();
                         break;
 
                     case 5:
-                        
-                        ;
-                        if (sistema.ObterNumeros().Count == 0)
+                        try
                         {
-                            Console.WriteLine("Nehum número adicionado ainda.");
-
-                            Console.WriteLine("Precione qualquer tecla para continuar...");
-                            Console.ReadKey();
-                        }
-                        else
-                        {
-                           
-
                             Console.WriteLine($"O maior número é: {sistema.ObterMaior()}");
 
-                            Console.WriteLine("Pressione qualquer tecla...");
-                            Console.ReadKey();
                         }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine($"Erro: {ex.Message}");
+                        }
+
+                        Console.WriteLine("Pressione qualquer tecla...");
+                        Console.ReadKey();
+
                         break;
                     case 6:
-                        
-                        if  (sistema.ObterNumeros().Count == 0)
+                        try
                         {
-                            Console.WriteLine("Nehum número adicionado ainda.");
-
-                            Console.WriteLine("Precione qualquer tecla para continuar...");
-                            Console.ReadKey();
+                            Console.WriteLine($"O menor número é: {sistema.ObterMenor()}");
                         }
-                        else
+                        catch (Exception ex)
                         {
-                           Console.WriteLine($"O menor número é: {sistema.ObterMenor()}");
+                            Console.WriteLine($"Erro: {ex.Message}");
                         }
 
                         Console.WriteLine("Pressione qualquer tecla...");
                         Console.ReadKey();
                         break;
                     case 7:
-                      
-                        if (sistema.ObterNumeros().Count == 0)
+                        try
                         {
-                            Console.WriteLine("Nehum número adicionado ainda.");
-
-                            Console.WriteLine("Precione qualquer tecla para continuar...");
-                            Console.ReadKey();
-
-
-
-                        }
-                        else
-                        {
-                            
                             Console.WriteLine($"A média dos números é: {sistema.ObterrMedia()}");
-
-
-
                         }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine($"Erro: {ex.Message}");
+                        }
+
+
 
                         Console.WriteLine("Pressione qualquer tecla...");
                         Console.ReadKey();
@@ -194,30 +196,30 @@ class SistemaDeNumeros
 {
     private List<int> numeros = new List<int>();
 
-    public void AdcionarNumeros(int numero)
+    public void AdcionarNumero(int numero)
     {
-
-        {
             numeros.Add(numero);
 
-        }
-
-
     }
-    public bool RemoverNumeros(int numero)
+    public bool RemoverNumero(int numero)
     {
+        if (numeros.Count == 0)
+            throw new InvalidOperationException("Nenhum número adicionado ainda.");
+
 
         return numeros.Remove(numero);
 
     }
-    public bool BuscarNumeros(int numero)
+    public bool BuscarNumero(int numero)
     {
+        if (numeros.Count == 0)
+            throw new InvalidOperationException("Nenhum número adicionado ainda.");
 
         return numeros.Contains(numero);
     }
 
 
-    public List<int> ObterNumeros()
+    public List<int> ObterNumero()
     {
 
         return numeros; ;
@@ -225,8 +227,11 @@ class SistemaDeNumeros
 
     public int ObterMaior()
     {
+        if (numeros.Count == 0)
+            throw new InvalidOperationException("Nenhum número adicionado ainda.");
+
         int maior = numeros[0];
-        foreach(int n in numeros)
+        foreach (int n in numeros)
         {
             if (n > maior)
             {
@@ -239,10 +244,12 @@ class SistemaDeNumeros
 
     public int ObterMenor()
     {
+        if (numeros.Count == 0)
+            throw new InvalidOperationException("Nenhum número adicionado ainda.");
 
 
         int menor = numeros[0];
-        foreach(int n in numeros)
+        foreach (int n in numeros)
         {
             if (n < menor)
             {
@@ -255,8 +262,11 @@ class SistemaDeNumeros
 
     public double ObterrMedia()
     {
+        if (numeros.Count == 0)
+            throw new InvalidOperationException("Nenhum número adicionado ainda.");
+
         double media = 0;
-        foreach(int n in numeros)
+        foreach (int n in numeros)
         {
             media += n;
         }
