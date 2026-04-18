@@ -222,7 +222,7 @@ class SistemaDeNumeros
     public List<int> ObterNumero()
     {
 
-        return numeros; ;
+        return new List<int>(numeros); ;
     }
 
     public int ObterMaior()
@@ -230,33 +230,26 @@ class SistemaDeNumeros
         if (numeros.Count == 0)
             throw new InvalidOperationException("Nenhum número adicionado ainda.");
 
-        int maior = numeros[0];
-        foreach (int n in numeros)
-        {
-            if (n > maior)
-            {
-                maior = n;
-            }
-        }
-        return maior;
+        
+        return numeros.Max();
     }
 
 
     public int ObterMenor()
     {
         if (numeros.Count == 0)
-            throw new InvalidOperationException("Nenhum número adicionado ainda.");
+        
+             throw new InvalidOperationException("Nenhum número adicionado ainda.");
+
+           return numeros.Min();
+            
+        
+           
 
 
-        int menor = numeros[0];
-        foreach (int n in numeros)
-        {
-            if (n < menor)
-            {
-                menor = n;
-            }
-        }
-        return menor;
+        
+        
+        
 
     }
 
@@ -265,12 +258,8 @@ class SistemaDeNumeros
         if (numeros.Count == 0)
             throw new InvalidOperationException("Nenhum número adicionado ainda.");
 
-        double media = 0;
-        foreach (int n in numeros)
-        {
-            media += n;
-        }
-        return media / numeros.Count;
+        
+        return numeros.Average();
 
     }
 }
