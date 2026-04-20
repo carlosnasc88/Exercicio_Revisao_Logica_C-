@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("06-sistema-de-numeros-como-metodos-melhorados")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+442e80182f8caa26fdbc01d61e4ed91e576642cb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8e332929c72fe00945cad2b0b0b67b9d419500a")]
 [assembly: System.Reflection.AssemblyProductAttribute("06-sistema-de-numeros-como-metodos-melhorados")]
 [assembly: System.Reflection.AssemblyTitleAttribute("06-sistema-de-numeros-como-metodos-melhorados")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
