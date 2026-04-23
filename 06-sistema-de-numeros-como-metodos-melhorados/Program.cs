@@ -1,13 +1,11 @@
 ﻿
 
-using System.Net.ServerSentEvents;
-using System.Runtime.InteropServices;
-
 class Program
 {
+     
     static void Main(string[] args)
     {
-        SistemaDeNumeros sistema = new SistemaDeNumeros();
+        ISistemaDeNumeros sistema = new SistemaDeNumeros();
         int opcao;
 
         do
@@ -231,8 +229,10 @@ class Program
 
                     case 10:
                         try
-                        {ComDefaultInterfaceAttribute
+                        {
+
                             var resumo = sistema.ObterResumo();
+                            
                             Console.WriteLine($"Quantidade de números: {resumo.Quantidade}");
                             Console.WriteLine($"Maior número: {resumo.Maior}");
                             Console.WriteLine($"Menor número: {resumo.Menor}");
@@ -277,6 +277,22 @@ class Program
     }
 }
 
+
+
+
+
+public interface ISistemaDeNumeros{
+      
+    void AdcionarNumero(int numero);
+    bool RemoverNumero(int numero);
+    bool BuscarNumero(int numero);
+    List<int> ObterNumero();   
+    List<int> ObterPares();
+    List<int> ObterImpares();
+    ResumoNumeros ObterResumo();
+
+}
+
 class ResumoNumeros
 {
     public int Quantidade { get; set; }
@@ -289,9 +305,10 @@ class ResumoNumeros
 
 
 
-class SistemaDeNumeros
+class SistemaDeNumeros : ISistemaDeNumeros
 {
 
+   
 
     private List<int> numeros = new List<int>();
 
@@ -336,12 +353,10 @@ class SistemaDeNumeros
 
 
     public List<int> ObterNumero()
-    {
-        // if(numeros.Count == 0)
-        //     throw new InvalidOperationException("Nenhum número adicionado ainda.");
+    {     
 
 
-        return numeros;
+        return new List<int>(numeros);
     }
 
     public int ObterMaior()
